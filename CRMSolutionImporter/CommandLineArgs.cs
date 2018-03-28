@@ -17,5 +17,8 @@ namespace CRMSolutionImporter
 
         [Option("export", HelpText = "Whether or not to export the solution log")]
         public bool ExportLog { get; set; }
+
+        [Option("publish", HelpText = "Whether or not to publish the solution afterwards")]
+        public bool Publish { get; set; }
     }
 }
