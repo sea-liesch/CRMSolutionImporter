@@ -102,6 +102,13 @@ namespace CRMSolutionImporter
                 return 99;
             }
 
+            if (args.Publish)
+            {
+                Console.WriteLine("Publishing");
+                PublishAllXmlRequest publishRequest = new PublishAllXmlRequest();
+                service.Execute(publishRequest);
+            }
+
             return 0;
         }
     }
