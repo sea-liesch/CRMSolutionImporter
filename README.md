@@ -1,5 +1,5 @@
 # CRMSolutionImporter
-A utitlity to import solutions into CRM
+A utility to import solutions into CRM
 
 # Building
 Uses the standard .net build process via Visual Studio or msbuild
